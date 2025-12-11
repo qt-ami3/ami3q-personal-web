@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('fonts/MapleMono[wght]-VF.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+>>>>>>> 409eef3 (fixed aboutBox scaling and font defaulting on user end)
 body /*defualt settings for components in the body*/
 {
   font-family: maple mono;
@@ -19,6 +29,7 @@ button
   font-weight: italic; /* bold,italic,etc. */
 }
 
+<<<<<<< HEAD
 #aboutBox
 {
   text-align: center;
@@ -41,6 +52,25 @@ button
   /*margin-left: 20px; changes box position (0 left, 200 middle, 400 right)*/
 }
 
+=======
+
+#aboutBox {
+  text-align: center;
+
+  width: 400px;
+  height: fit-content;
+
+  font-size: 11.5px;
+  background: #4c566a;
+
+  padding: 5px 10px;
+
+  border: 5px solid #3b4252;
+  border-radius: 10px;
+}
+
+
+>>>>>>> 409eef3 (fixed aboutBox scaling and font defaulting on user end)
 html, body
 {
   margin: 0;
